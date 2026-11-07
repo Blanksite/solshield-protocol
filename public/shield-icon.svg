@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="retroPhosphorSm" x1="120" y1="100" x2="392" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#14F195"/>
+      <stop offset="65%" stop-color="#9945FF"/>
+      <stop offset="100%" stop-color="#FF3B81"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sharp Square Outer Chassis -->
+  <rect width="512" height="512" fill="#0c0e14"/>
+  <rect width="504" height="504" x="4" y="4" stroke="#252d3d" stroke-width="8"/>
+
+  <!-- Stepped Retro Shield -->
+  <path d="M 256 80
+           L 410 130
+           L 410 248
+           L 370 330
+           L 304 400
+           L 256 440
+           L 208 400
+           L 142 330
+           L 102 248
+           L 102 130
+           Z"
+        fill="#111624" stroke="url(#retroPhosphorSm)" stroke-width="14" stroke-linejoin="miter"/>
+
+  <!-- Phosphor Ribs -->
+  <g fill="none" stroke-linecap="square">
+    <path d="M 166 186 L 256 216 L 346 186" stroke="#14F195" stroke-width="16"/>
+    <path d="M 154 238 L 256 270 L 358 238" stroke="#00E5FF" stroke-width="14"/>
+    <path d="M 166 292 L 256 324 L 346 292" stroke="#9945FF" stroke-width="16"/>
+  </g>
+
+  <!-- Central Diamond Core -->
+  <rect x="238" y="240" width="36" height="36" rx="0" transform="rotate(45 256 258)"
+        fill="#0c101a" stroke="#14F195" stroke-width="6"/>
+  <rect x="248" y="250" width="16" height="16" rx="0" transform="rotate(45 256 258)"
+        fill="#14F195"/>
+</svg>
